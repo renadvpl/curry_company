@@ -7,7 +7,7 @@ import folium
 from haversine import haversine
 from PIL import Image
 from streamlit_folium import folium_static
-
+from datetime import datetime
 
 # ========== FUNCOES ===============================================================================
 
