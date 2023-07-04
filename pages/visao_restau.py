@@ -68,7 +68,7 @@ def desv_padr( df1, festival ):
 
 # ========== IMPORTACAO DO DATASET ===========================+++++++++++++++++================
 #df = pd.read_csv( 'Documents/Jupyter_Labs/repos/dataset/train.csv' )
-df = pd.read_csv( '/dataset/train.csv' )
+df = pd.read_csv( 'dataset/train.csv' )
 
 # ========== PREPARACAO DO DATASET ===========================+++++++++++++++++================
 df1 = clean_code( df )

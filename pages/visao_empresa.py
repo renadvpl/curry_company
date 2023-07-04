@@ -109,7 +109,7 @@ def country_maps( df1 ):
 
 # ================= Importacao do Dataframe ========================================================
 #df = pd.read_csv( 'Documents/Jupyter_Labs/repos/dataset/train.csv' )
-df = pd.read_csv( '/dataset/train.csv' )
+df = pd.read_csv( 'dataset/train.csv' )
 
 # ================= Limpeza do Dataframe ===========================================================
 df1 = clean_code( df )

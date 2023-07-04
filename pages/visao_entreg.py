@@ -65,7 +65,7 @@ def clean_code( df1 ):
                         
 # ========== IMPORTACAO DO DATASET =================================================================
 #df = pd.read_csv( 'Documents/Jupyter_Labs/repos/dataset/train.csv' )
-df = pd.read_csv( '/dataset/train.csv' )
+df = pd.read_csv( 'dataset/train.csv' )
 
 
 # ================= Limpeza do Dataframe ===========================================================
