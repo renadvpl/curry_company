@@ -5,8 +5,8 @@ st.set_page_config(
     page_title="Home",
     page_icon="🈳"
 )
-image_path = 'C:/Users/renat/Documents/Jupyter_Labs/repos/dashboards/'
-image = Image.open( image_path + 'logo.jpg' )
+
+image = Image.open( 'logo.jpg' )
 st.sidebar.image( image, width=120 )
 
 st.sidebar.markdown('# Curry Company')
