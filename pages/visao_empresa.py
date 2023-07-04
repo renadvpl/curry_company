@@ -130,9 +130,9 @@ st.sidebar.markdown('### Fastest Delivery in Town')
 st.sidebar.markdown("""---""")
 st.sidebar.markdown('### Selecione uma data-limite')
 data_slider = st.sidebar.slider('Até que valor?',
-                                value=pd.datetime(2022, 3, 20),
-                                min_value=pd.datetime(2022, 2, 11),
-                                max_value=pd.datetime(2022, 4, 6),
+                                value=datetime(2022, 3, 20),
+                                min_value=datetime(2022, 2, 11),
+                                max_value=datetime(2022, 4, 6),
                                 format='DD-MM-YYYY' )
 
 st.sidebar.markdown("""---""")
